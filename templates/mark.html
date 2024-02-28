@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mark</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    <script type="text/javascript">
+      
+    </script>
+  </head>
+  <body>
+    {% if name %}
+      <div id="title">
+        <h1>{{ name }}</h1>
+      </div>
+    {% endif %}
+    <div id="score">
+      <h1>Score: {{ mark }}</h1>
+    </div>
+  </body>
+</html>

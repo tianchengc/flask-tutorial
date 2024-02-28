@@ -1,0 +1,24 @@
+html, body{
+  background: #333;
+  font-family: 'Oswald', sans-serif;
+  color: #CCC;
+  text-shadow: 1px 1px 5px black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+#score {
+  transform-style: preserve-3d;
+  font-size:4em;
+}
+#title{
+  transform-style: preserve-3d;
+  font-size: 5em;
+  line-height: 2em;
+}
+  
